@@ -1,0 +1,29 @@
+.banniere {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid gray;
+    width: fit-content;
+    padding: 20px;
+    margin: 50px;
+    opacity: 0;
+}
+
+
+h1 {
+    font-size: 20px;
+
+}
+
+#btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    
+    
+}
+#btn:hover {
+    background-color: rgba(255, 0, 0, 0.541);
+}
